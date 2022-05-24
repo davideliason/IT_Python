@@ -11,6 +11,11 @@ class TestRearrange(unittest.TestCase): # this is our custom class that inherits
 		expected = "John Smith"
 		self.assertEqual(rearrange_name(testcase), expected)
 
+	def test_empty(self):
+		testcase = ""
+		expected = ""
+		self.assertEqual(rearrange_name(testcase), expected)
+
 #unittest.main() to run the test
 unittest.main()
 
