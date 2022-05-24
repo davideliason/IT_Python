@@ -1,0 +1,5 @@
+computer.name CRON[29440]: USER (good_user)
+
+computer.name CRON[29440]: USER (bad_user)
+
+just some random words
