@@ -16,6 +16,11 @@ class TestRearrange(unittest.TestCase): # this is our custom class that inherits
 		expected = ""
 		self.assertEqual(rearrange_name(testcase), expected)
 
+	def test_double_name(self):
+		testcase = "Smith, John B."
+		expected = "John B. Smith"
+		self.assertEqual(rearrange_name(testcase), expected)
+
 #unittest.main() to run the test
 unittest.main()
 
